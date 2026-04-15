@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogSpace</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__container">
+            <a href="#/" class="header__logo">
+                <span class="logo-icon">✦</span>
+                BlogSpace
+            </a>
+
+            <nav class="nav" id="navMenu">
+                <a href="#/" class="nav__link" data-route="home">Inicio</a>
+                <a href="#/crear" class="nav__link" data-route="create">
+                    <span class="nav-icon">+</span> Crear Post
+                </a>
+                <a href="#/estadisticas" class="nav__link" data-route="stats">Estadísticas</a>
+            </nav>
+
+            <button class="btn-menu" id="btnMenu" aria-label="Abrir menú" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main class="main" id="app">
+    </main>
+
+    <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitulo">
+        <div class="modal">
+            <div class="modal__icono">🗑️</div>
+            <h3 class="modal__titulo" id="modalTitulo">¿Eliminar publicación?</h3>
+            <p class="modal__texto">Esta acción no se puede deshacer. ¿Estás seguro de que quieres eliminar esta publicación?</p>
+            <div class="modal__acciones">
+                <button class="btn btn--secundario" id="btnCancelar">Cancelar</button>
+                <button class="btn btn--peligro" id="btnConfirmarEliminar">Sí, eliminar</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

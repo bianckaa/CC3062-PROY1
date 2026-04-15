@@ -1,0 +1,151 @@
+
+:root {
+    --color-gris-claro:  #C9CAD9;
+    --color-lavanda:     #D1D2F9;
+    --color-azul-suave:  #A3BCF9;
+    --color-azul-medio:  #7796CB;
+    --color-azul-oscuro: #576490;
+
+    --color-blanco:      #FFFFFF;
+    --color-fondo:       #F4F5FB;
+    --color-fondo-alt:   #ECEDF8;
+    --color-texto:       #1a1a2e;
+    --color-texto-sec:   #5a5a7a;
+    --color-texto-light: #8888aa;
+    --color-borde:       #E0E1F0;
+
+    --color-exito:       #1a7f37;
+    --color-exito-bg:    #dafbe1;
+    --color-error:       #cf222e;
+    --color-error-bg:    #ffebe9;
+    --color-advertencia: #9a6700;
+    --color-advert-bg:   #fff8c5;
+
+    --fuente-titulo:     'Georgia', 'Times New Roman', serif;
+    --fuente-ui:         'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+
+    --texto-xs:   0.75rem;   /* 12px */
+    --texto-sm:   0.875rem;  /* 14px */
+    --texto-base: 1rem;      /* 16px */
+    --texto-md:   1.125rem;  /* 18px */
+    --texto-lg:   1.25rem;   /* 20px */
+    --texto-xl:   1.5rem;    /* 24px */
+    --texto-xxl:  2rem;      /* 32px */
+    --texto-hero: 2.5rem;    /* 40px */
+
+    --sp-xs:  4px;
+    --sp-sm:  8px;
+    --sp-md:  16px;
+    --sp-lg:  24px;
+    --sp-xl:  32px;
+    --sp-xxl: 48px;
+    --sp-3xl: 64px;
+
+    --radio-sm:   6px;
+    --radio-md:   12px;
+    --radio-lg:   20px;
+    --radio-xl:   28px;
+    --radio-full: 9999px;
+
+    --sombra-xs:    0 1px 2px rgba(87, 100, 144, 0.06);
+    --sombra-sm:    0 1px 4px rgba(87, 100, 144, 0.10);
+    --sombra-md:    0 4px 12px rgba(87, 100, 144, 0.12);
+    --sombra-lg:    0 8px 24px rgba(87, 100, 144, 0.15);
+    --sombra-xl:    0 16px 40px rgba(87, 100, 144, 0.18);
+    --sombra-hover: 0 12px 32px rgba(87, 100, 144, 0.22);
+
+    --transicion:      all 0.22s ease;
+    --transicion-lenta: all 0.4s ease;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    font-family: var(--fuente-ui);
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    line-height: 1.65;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--fuente-titulo);
+    line-height: 1.3;
+    color: var(--color-texto);
+    font-weight: bold;
+}
+
+a {
+    color: var(--color-azul-oscuro);
+    text-decoration: none;
+    transition: var(--transicion);
+}
+
+a:hover {
+    color: var(--color-azul-medio);
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+button {
+    cursor: pointer;
+    font-family: var(--fuente-ui);
+    border: none;
+    background: none;
+}
+
+input, textarea, select {
+    font-family: var(--fuente-ui);
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--sp-lg);
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color-fondo);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-gris-claro);
+    border-radius: var(--radio-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color-azul-medio);
+}
