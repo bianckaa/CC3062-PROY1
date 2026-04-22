@@ -109,16 +109,19 @@ La aplicación se abrirá en `http://127.0.0.1:5500`.
 
 ## Integrantes
 
-| Nombre | Responsabilidad |
-|--------|-----------------|
-| Biancka Raxón | RF-02 Detalle · RF-03 Crear · RF-05 Eliminar · RF-07 Feedback · ui.js · validation.js · CSS · API propia |
-| Diana Sosa | RF-01 Listado · RF-04 Editar · RF-06 Filtros · RF-08 Estadísticas · api.js · router.js · main.js |
+- Diana Sosa 
+- Biancka Raxón 
 
 ---
 
 ## Video de demostración
 
-[![Ver video en YouTube](https://img.shields.io/badge/YouTube-Ver%20demo-red?style=for-the-badge&logo=youtube)](https://youtu.be/X5Llkw-An4g)
+[![Ver video versión extendida en YouTube](https://img.shields.io/badge/YouTube-Ver%20demo-red?style=for-the-badge&logo=youtube)](https://youtu.be/X5Llkw-An4g)
 
 🔗 [https://youtu.be/X5Llkw-An4g](https://youtu.be/X5Llkw-An4g)
+
+[![Ver video versión corta en YouTube](https://img.shields.io/badge/YouTube-Ver%20demo-red?style=for-the-badge&logo=youtube)](https://youtu.be/yNWK22WPjAA)
+
+🔗 [https://youtu.be/yNWK22WPjAA](https://youtu.be/yNWK22WPjAA)
+
 
