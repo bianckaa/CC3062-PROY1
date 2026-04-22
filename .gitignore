@@ -1,0 +1,21 @@
+# Dependencias de Node.js — nunca se suben al repositorio
+node_modules/
+api/node_modules/
+
+# Archivos de sistema de Windows
+Thumbs.db
+desktop.ini
+
+# Archivos de sistema de Mac
+.DS_Store
+
+# Variables de entorno (por si se agregan después)
+.env
+.env.local
+
+# Carpeta interna de Claude Code
+.claude/
+
+# Logs de Node
+*.log
+npm-debug.log*
