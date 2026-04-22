@@ -1,0 +1,16 @@
+{
+  "name": "blogspace-api",
+  "version": "1.0.0",
+  "description": "API REST para BlogSpace con Express.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["blog", "api", "express"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "uid": "^2.0.2"
+  }
+}

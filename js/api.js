@@ -1,5 +1,5 @@
 
-const BASE_URL = 'https://dummyjson.com';
+const BASE_URL = 'http://localhost:3001';
 
 async function fetchJSON(url, opciones = {}) {
     const respuesta = await fetch(url, opciones);
