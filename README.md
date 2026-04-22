@@ -120,7 +120,7 @@ La aplicación se abrirá en `http://127.0.0.1:5500`.
 
 🔗 [https://youtu.be/X5Llkw-An4g](https://youtu.be/X5Llkw-An4g)
 
-[![Ver video versión corta en YouTube](https://img.shields.io/badge/YouTube-Ver%20demo-red?style=for-the-badge&logo=youtube)](https://youtu.be/yNWK22WPjAA)
+[![Ver video versión corta en YouTube](https://img.shields.io/badge/YouTube-Ver%20demo-red?style=for-the-badge&logo=youtube)](https://youtu.be/yNWK22WPjAA) (versión corta)
 
 🔗 [https://youtu.be/yNWK22WPjAA](https://youtu.be/yNWK22WPjAA)
 
